@@ -1,0 +1,27 @@
+{
+    "name": "printermonk/printermonk-php",
+    "type": "library",
+    "description": "A PHP Client for PrinterMonk to give your printer an API",
+    "keywords": [
+        "api",
+        "php",
+        "printermonk",
+        "print"
+    ],
+    "homepage": "https://github.com/PrinterMonk/printermonk-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roald Wegh",
+            "email": "info@printermonk.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrinterMonk\\": "src/"
+        }
+    }
+}
